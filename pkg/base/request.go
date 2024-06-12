@@ -9,9 +9,9 @@ import (
 
 const (
 	rtspProtocol10           = "RTSP/1.0"
-	requestMaxMethodLength   = 64
+	requestMaxMethodLength   = 256
 	requestMaxURLLength      = 2048
-	requestMaxProtocolLength = 64
+	requestMaxProtocolLength = 256
 )
 
 // Method is the method of a RTSP request.
